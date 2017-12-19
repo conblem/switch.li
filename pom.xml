@@ -35,6 +35,11 @@
 			<version>23.0</version>
 		</dependency>
 		<dependency>
+			<groupId>org.bigtesting</groupId>
+			<artifactId>routd</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		<dependency>
 			<groupId>org.loadui</groupId>
 			<artifactId>testFx</artifactId>
 			<version>3.1.2</version>

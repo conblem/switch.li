@@ -3,8 +3,17 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import me.conblem.switchli.NewScreenSwitch?>
+<?import me.conblem.switchli.RouteView?>
+<?import me.conblem.switchli.controller.MainContainer?>
 
 
 <fx:root type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60">
   <Label fx:id="lblHome" text="Home" />
+  <NewScreenSwitch>
+  	<routes>
+  		<Route url="/test"></Route>
+  		<Route url="/test2"></Route>
+  	</routes>
+  	<MainContainer></MainContainer>
+  </NewScreenSwitch>
 </fx:root>
